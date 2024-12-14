@@ -4,16 +4,16 @@
 ---
 
 # Quick Access 🔗
-- Introduction;
-- Open in Explorer;
-- File not found;
-- Installing;
-- Troubleshooting;
-- Supporters;
-- Support me;
+- [Introduction](https://github.com/danilodelucio/Nuke_Start_Screen?tab=readme-ov-file#introduction-);
+- [Open in Explorer](https://github.com/danilodelucio/Nuke_Start_Screen?tab=readme-ov-file#open-in-explorer-);
+- [File not found](https://github.com/danilodelucio/Nuke_Start_Screen?tab=readme-ov-file#file-not-found-%EF%B8%8F);
+- [Installing](https://github.com/danilodelucio/Nuke_Start_Screen?tab=readme-ov-file#installing-%EF%B8%8F);
+- [Troubleshooting](https://github.com/danilodelucio/Nuke_Start_Screen?tab=readme-ov-file#troubleshooting-%EF%B8%8F);
+- [Supporters](https://github.com/danilodelucio/Nuke_Start_Screen?tab=readme-ov-file#supporters-);
+- [Support me](https://github.com/danilodelucio/Nuke_Start_Screen?tab=readme-ov-file#support-me-);
 
-# Introduction 📎
-- Displays a window containing the last seven recent files when opening Nuke.
+# Introduction 📌
+- **Nuke Start Screen** displays a window containing the last seven recent files when opening Nuke.
 
 ![Screenshot 2024-12-14 195049](https://github.com/user-attachments/assets/045863c7-9cf3-4dd6-bd74-656f26c01832)
 
