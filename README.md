@@ -8,8 +8,7 @@
 - [Open in Explorer](https://github.com/danilodelucio/Nuke_Start_Screen?tab=readme-ov-file#open-in-explorer-);
 - [File not found](https://github.com/danilodelucio/Nuke_Start_Screen?tab=readme-ov-file#file-not-found-%EF%B8%8F);
 - [Installing](https://github.com/danilodelucio/Nuke_Start_Screen?tab=readme-ov-file#installing-%EF%B8%8F);
-- Nuke Compatibility;
-- License;
+- [Nuke Compatibility](https://github.com/danilodelucio/Nuke_Start_Screen?tab=readme-ov-file#nuke-compatibility-%EF%B8%8F);
 - [Troubleshooting](https://github.com/danilodelucio/Nuke_Start_Screen?tab=readme-ov-file#troubleshooting-%EF%B8%8F);
 - [Supporters](https://github.com/danilodelucio/Nuke_Start_Screen?tab=readme-ov-file#supporters-);
 - [Support me](https://github.com/danilodelucio/Nuke_Start_Screen?tab=readme-ov-file#support-me-);
@@ -33,13 +32,6 @@
 
 # Nuke Compatibility ☢️
 
-# License 📝
-Permission is granted to use this tool for Commercial or Non-Commercial purposes under the following conditions:
-
-1. You may not claim authorship of or sell this tool.
-2. You may not modify the code or any part that alters its original appearance (including icons or cover images).
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 # Troubleshooting 🛠️
 If you have feedback, suggestions, or feature requests, please visit the [Discussions](https://github.com/danilodelucio/Nuke_Start_Screen/discussions) page and create a **New Discussion**.
