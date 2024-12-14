@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------------
 #  Nuke_Start_Screen
-#  Version: v01.0
+#  Version: Beta v1
 #  Author: Danilo de Lucio
 #  Website: www.danilodelucio.com
 #  Create Date: 10/Dec/2024
-#  Update Date: 13/Dec/2024
+#  Update Date: 14/Dec/2024
 # -----------------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------------
@@ -15,7 +15,7 @@
 
 import os
 
-# import nuke
+import nuke
 
 from Qt import QtWidgets, QtCompat, QtCore, QtGui
 
@@ -23,7 +23,7 @@ from Qt import QtWidgets, QtCompat, QtCore, QtGui
 SCRIPT_PATH = os.path.dirname(os.path.abspath(__file__))
 IMG_PATH = os.path.join(SCRIPT_PATH, "imgs", "{}.png")
 TOOL_NAME = "Nuke Start Screen"
-TOOL_VERSION = "v1.0"
+TOOL_VERSION = "Beta v1"
 
 # Global variable
 window_shown = False
@@ -124,7 +124,7 @@ class NukeStartScreen(QtWidgets.QDialog):
         self.open_button.clicked.connect(self.press_openButton)
         ###################################### SETTING WIDGETS ######################################
 
-        self.label_footer.setText('<a style="color: {0}">{1} {2} | Developed by Danilo de Lucio | <a href="http://www.danilodelucio.com"; style="color: {0}"; text-decoration: underline;">www.danilodelucio.com</a> | <a href="https://github.com/danilodelucio"; style="color: {0}"; text-decoration: underline;">GitHub</a></a>'.format("grey", TOOL_NAME, TOOL_VERSION))
+        self.label_footer.setText('<a style="color: {0}">{1} {2} | Developed by Danilo de Lucio | <a href="http://www.danilodelucio.com"; style="color: {0}"; text-decoration: underline;">www.danilodelucio.com</a> | <a href="https://github.com/danilodelucio/Nuke_Start_Screen"; style="color: {0}"; text-decoration: underline;">GitHub</a></a>'.format("grey", TOOL_NAME, TOOL_VERSION))
         self.label_footer.setOpenExternalLinks(True)
         
         self.set_text()
