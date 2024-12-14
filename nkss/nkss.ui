@@ -105,13 +105,13 @@ background-repeat: no-repeat;
        <property name="minimumSize">
         <size>
          <width>170</width>
-         <height>30</height>
+         <height>40</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
          <width>170</width>
-         <height>30</height>
+         <height>40</height>
         </size>
        </property>
        <property name="cursor">
@@ -127,13 +127,13 @@ background-repeat: no-repeat;
        <property name="minimumSize">
         <size>
          <width>170</width>
-         <height>30</height>
+         <height>40</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
          <width>170</width>
-         <height>30</height>
+         <height>40</height>
         </size>
        </property>
        <property name="cursor">
@@ -200,13 +200,13 @@ background-repeat: no-repeat;
       <widget class="QPushButton" name="pushButton_explorer_6">
        <property name="minimumSize">
         <size>
-         <width>120</width>
+         <width>60</width>
          <height>40</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>120</width>
+         <width>60</width>
          <height>40</height>
         </size>
        </property>
@@ -217,7 +217,20 @@ background-repeat: no-repeat;
         <string>Open in Explorer</string>
        </property>
        <property name="text">
-        <string>Explorer_6</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/folder.png</normaloff>imgs/folder.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -264,13 +277,13 @@ background-repeat: no-repeat;
       <widget class="QPushButton" name="pushButton_explorer_2">
        <property name="minimumSize">
         <size>
-         <width>120</width>
+         <width>60</width>
          <height>40</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>120</width>
+         <width>60</width>
          <height>40</height>
         </size>
        </property>
@@ -281,7 +294,20 @@ background-repeat: no-repeat;
         <string>Open in Explorer</string>
        </property>
        <property name="text">
-        <string>Explorer_2</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/folder.png</normaloff>imgs/folder.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -289,13 +315,13 @@ background-repeat: no-repeat;
       <widget class="QPushButton" name="pushButton_explorer_3">
        <property name="minimumSize">
         <size>
-         <width>120</width>
+         <width>60</width>
          <height>40</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>120</width>
+         <width>60</width>
          <height>40</height>
         </size>
        </property>
@@ -306,7 +332,20 @@ background-repeat: no-repeat;
         <string>Open in Explorer</string>
        </property>
        <property name="text">
-        <string>Explorer_3</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/folder.png</normaloff>imgs/folder.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -374,13 +413,13 @@ background-repeat: no-repeat;
       <widget class="QPushButton" name="pushButton_explorer_5">
        <property name="minimumSize">
         <size>
-         <width>120</width>
+         <width>60</width>
          <height>40</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>120</width>
+         <width>60</width>
          <height>40</height>
         </size>
        </property>
@@ -391,7 +430,20 @@ background-repeat: no-repeat;
         <string>Open in Explorer</string>
        </property>
        <property name="text">
-        <string>Explorer_5</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/folder.png</normaloff>imgs/folder.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -414,13 +466,13 @@ background-repeat: no-repeat;
       <widget class="QPushButton" name="pushButton_explorer_4">
        <property name="minimumSize">
         <size>
-         <width>120</width>
+         <width>60</width>
          <height>40</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>120</width>
+         <width>60</width>
          <height>40</height>
         </size>
        </property>
@@ -431,7 +483,20 @@ background-repeat: no-repeat;
         <string>Open in Explorer</string>
        </property>
        <property name="text">
-        <string>Explorer_4</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/folder.png</normaloff>imgs/folder.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -511,13 +576,13 @@ background-repeat: no-repeat;
       <widget class="QPushButton" name="pushButton_explorer_1">
        <property name="minimumSize">
         <size>
-         <width>120</width>
+         <width>60</width>
          <height>40</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>120</width>
+         <width>60</width>
          <height>40</height>
         </size>
        </property>
@@ -528,7 +593,26 @@ background-repeat: no-repeat;
         <string>Open in Explorer</string>
        </property>
        <property name="text">
-        <string>Explorer_1</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/folder.png</normaloff>imgs/folder.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -614,13 +698,13 @@ background-repeat: no-repeat;
       <widget class="QPushButton" name="pushButton_explorer_7">
        <property name="minimumSize">
         <size>
-         <width>120</width>
+         <width>60</width>
          <height>40</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>120</width>
+         <width>60</width>
          <height>40</height>
         </size>
        </property>
@@ -631,7 +715,20 @@ background-repeat: no-repeat;
         <string>Open in Explorer</string>
        </property>
        <property name="text">
-        <string>Explorer_7</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/folder.png</normaloff>imgs/folder.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </item>

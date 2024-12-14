@@ -102,6 +102,9 @@ class NukeStartScreen(QtWidgets.QDialog):
         
         self.explorer_buttons_list = [self.explorer_1, self.explorer_2, self.explorer_3, self.explorer_4,
                                       self.explorer_5, self.explorer_6, self.explorer_7]
+        
+        for explorer_button in self.explorer_buttons_list:
+            explorer_button.setIcon(QtGui.QIcon(IMG_PATH.format("folder")))
 
         ###################################### SIGNALS ######################################
         self.explorer_1.clicked.connect(lambda: self.press_explorerButton(0))
