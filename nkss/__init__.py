@@ -1,0 +1,1 @@
+print("Nuke Start Screen, built in Dec 2024.\nCopyright (c) 2024 Danilo de Lucio. All Rights Reserved.")
