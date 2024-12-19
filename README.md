@@ -32,6 +32,7 @@
 
 <details>
 <summary><b></b>How to Install</b></summary>
+<br>
 
 - Click on the green button and download the zip file;
 
@@ -49,19 +50,24 @@
 
 ![image](https://github.com/user-attachments/assets/12bb73e2-b63f-47a4-a876-22f5b7e1f529)
 
-- Open the **init.py** file (if you don't have it, you can create one); 
+- Open the **init.py** file (if you don't have it, you can manually create one); 
 
 ![image](https://github.com/user-attachments/assets/db35c52f-cfca-4303-beaf-883469039077)
 
 - Copy the following code and paste it into your **init.py** file, then save and close it;
-
-
 
 ```python
 import nuke
 
 nuke.pluginAddPath('./Nuke_Start_Screen')
 ```
+
+![image](https://github.com/user-attachments/assets/1904c240-36c6-4216-9d9e-43195e1deb3b)
+
+- Now when opening Nuke, it should appear the **Nuke Start Screen** window;
+
+![image](https://github.com/user-attachments/assets/72c3ac85-5d26-4777-bedb-3567a6089a21)
+
 
 </details>
 
@@ -89,6 +95,6 @@ You can also share this tool or send me a positive message, it would help me in 
 
 ---
 
-Special thanks to Gustavo Goncalves, Marco Silva and Leticia Matsuoka for testing this tool and providing valuable feedback for improvement.
+Special thanks to Gustavo Goncalves and Leticia Matsuoka for testing this tool.
 
 # Cheers! 🥂
