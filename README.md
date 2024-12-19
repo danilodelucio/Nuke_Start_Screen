@@ -18,6 +18,11 @@
 
 ![Screenshot 2024-12-14 195049](https://github.com/user-attachments/assets/045863c7-9cf3-4dd6-bd74-656f26c01832)
 
+- You can access it later by going to **Edit** -> **Nuke Start Screen**;
+
+![image](https://github.com/user-attachments/assets/8b0dd93f-b68f-4653-a8bf-2efa4ddd01b8)
+
+
 # Open in Explorer 📁
 - Clicking on the folder icon will open the file path in your Explorer;
 
