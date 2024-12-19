@@ -1,6 +1,6 @@
 # -----------------------------------------------------------------------------------
 #  Nuke_Start_Screen
-#  Version: Beta v2
+#  Version: Beta v3
 #  Author: Danilo de Lucio
 #  Website: www.danilodelucio.com
 #  Create Date: 10/Dec/2024
@@ -23,7 +23,7 @@ from Qt import QtWidgets, QtCompat, QtCore, QtGui
 SCRIPT_PATH = os.path.dirname(os.path.abspath(__file__))
 IMG_PATH = os.path.join(SCRIPT_PATH, "imgs", "{}.png")
 TOOL_NAME = "Nuke Start Screen"
-TOOL_VERSION = "Beta v2"
+TOOL_VERSION = "Beta v3"
 
 # Global variable
 window_shown = False
