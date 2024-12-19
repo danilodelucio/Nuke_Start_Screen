@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------------
 #  Nuke_Start_Screen
-#  Version: Beta v1
+#  Version: Beta v2
 #  Author: Danilo de Lucio
 #  Website: www.danilodelucio.com
 #  Create Date: 10/Dec/2024
-#  Update Date: 14/Dec/2024
+#  Update Date: 18/Dec/2024
 # -----------------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------------
@@ -23,7 +23,7 @@ from Qt import QtWidgets, QtCompat, QtCore, QtGui
 SCRIPT_PATH = os.path.dirname(os.path.abspath(__file__))
 IMG_PATH = os.path.join(SCRIPT_PATH, "imgs", "{}.png")
 TOOL_NAME = "Nuke Start Screen"
-TOOL_VERSION = "Beta v1"
+TOOL_VERSION = "Beta v2"
 
 # Global variable
 window_shown = False
@@ -208,7 +208,12 @@ class NukeStartScreen(QtWidgets.QDialog):
         nuke.scriptClose()
 
     def press_openButton(self):
-        filepath, _ = QtWidgets.QFileDialog.getOpenFileName(self, "Open Nuke Script", "", "Nuke Scripts (*.nk)") 
+        if nuke.env['nc']:
+            nuke_version = "nknc"
+        else:
+            nuke_version = "nk"
+            
+        filepath, _ = QtWidgets.QFileDialog.getOpenFileName(self, "Open Nuke Script", "", "Nuke Scripts (*.{})".format(nuke_version)) 
         
         if filepath: 
             try: 
