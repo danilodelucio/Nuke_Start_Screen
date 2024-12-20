@@ -1,15 +1,15 @@
 # -----------------------------------------------------------------------------------
 #  Nuke_Start_Screen
-#  Version: Beta v3
+#  Version: v1.0
 #  Author: Danilo de Lucio
 #  Website: www.danilodelucio.com
 #  Create Date: 10/Dec/2024
-#  Update Date: 18/Dec/2024
+#  Update Date: 20/Dec/2024
 # -----------------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------------
 #  [Summary]
-#  Display a window with Recent Files when Nuke opens.
+#  Displays a window containing the last seven recent files when opening Nuke.
 #
 # -----------------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ from Qt import QtWidgets, QtCompat, QtCore, QtGui
 SCRIPT_PATH = os.path.dirname(os.path.abspath(__file__))
 IMG_PATH = os.path.join(SCRIPT_PATH, "imgs", "{}.png")
 TOOL_NAME = "Nuke Start Screen"
-TOOL_VERSION = "Beta v3"
+TOOL_VERSION = "v1.0"
 
 # Global variable
 window_shown = False
@@ -37,9 +37,7 @@ class NukeStartScreen(QtWidgets.QDialog):
         self.nkss = QtCompat.loadUi(path_ui, self)
 
         # Load Cover image
-        cover_file = IMG_PATH + "/cover.png"
         self.label_cover = self.nkss.label_cover
-        # self.label_cover.setStyleSheet("background-image: url('{}'); background-repeat: no-repeat;".format(cover_file))
         self.label_cover.setPixmap(QtGui.QPixmap(IMG_PATH.format("cover")))
 
         self.setModal(True)
