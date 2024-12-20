@@ -23,6 +23,10 @@
 ![image](https://github.com/user-attachments/assets/8b0dd93f-b68f-4653-a8bf-2efa4ddd01b8)
 
 
+> [!IMPORTANT]
+> _This tool is designed to work with **1280x1024** resolution or higher. Otherwise, the window may be cropped._
+
+
 # Open in Explorer 📁
 - Clicking on the folder icon will open the file path in your Explorer;
 
