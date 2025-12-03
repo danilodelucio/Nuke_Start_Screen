@@ -88,19 +88,16 @@ nuke.pluginAddPath('./Nuke_Start_Screen')
 If you have feedback, suggestions, or feature requests, please visit the [Discussions](https://github.com/danilodelucio/Nuke_Start_Screen/discussions) page and create a **New Discussion**.
 For bugs, please go to the [Issues](https://github.com/danilodelucio/Nuke_Start_Screen/issues) page and create a **New Issue**.
 
-# Supporters 💪
-> 😞
+# Support me! ☕
 
-# Support me! 🥺
+![Supporters Page](https://danilodelucio.com/wp-content/uploads/2025/12/supporter-badges.jpg)
 
-![image](https://github.com/user-attachments/assets/45a4c358-d381-4f80-aacf-dffc997e3b46)
+## Enjoying this tool?
+Support me with a coffee on my [Supporters](https://www.danilodelucio.com/supporters) page — get a badge and join the wall of supporters! 😎
 
-This personal project required significant time and extra hours of hard work to make it available to everyone.
-If you find this tool useful, please consider supporting me on [Buy Me A Coffee](https://buymeacoffee.com/danilodelucio). ☕
+You can also ⭐ _star this repository_ ⭐ — it helps a lot with visibility and motivates me to keep developing tools for VFX.
 
-> _If you donate any amount, please mention this tool (also your preference name if you want to), so your name will appear in the Supporters list above._
-
-You can also share this tool or send me a positive message, it would help me in the same way.
+Sharing this project or sending me a positive message would help me in the same way.
 
 ---
 
